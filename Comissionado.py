@@ -17,6 +17,3 @@ class Comissionado(Funcionario):
         print(f"==== Funcionario Comissionado ====")
         print(f"Código: {self.cod} \nNome: {self.nome} \nValor de horas: {self.valorHora} \nHoras Trabalhadas: {self.horasTrabalhadas} \nVendas: {self.vendas} \nSalário: {self.salario:.1f}")
 
-fc2 = Comissionado(2, "Juliana", 25, 30, 5) 
-fc2.exibirComissionado()
-        

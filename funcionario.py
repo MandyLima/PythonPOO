@@ -16,8 +16,6 @@ class Funcionario:
         return self.valorHora*self.horasTrabalhadas
     
     def exibirFuncionario(self):
+        print(f"==== Funcionario ====")
         print(f"Código: {self.cod} \nNome: {self.nome} \nValor de horas: {self.valorHora} \nHoras Trabalhadas: {self.horasTrabalhadas} \nSalário: {self.salario}")
         
-
-fc1 = Funcionario (1, "Maria Clara",25, 30 ) 
-fc1.exibirFuncionario() 
